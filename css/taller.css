@@ -1,7 +1,7 @@
 body { margin: 0; }
 
 
-header, main, nav, figure, article, footer, { display: block; }
+header, main, nav, figure, article, footer { display: block; }
 header {font-family: Arial, sans-serif;}
 
 /* Maquetación, Estilo y Acabados en CSS */
@@ -15,8 +15,9 @@ header article figure a { width: 100%; height: auto; margin: 0 auto; float: none
 header article figure a img { width: 200px; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
 
 header article nav { width: 435px; height: 40px; margin: 40px; float: right; position: relative; }
-header article nav a { width: auto; height: auto; margin: 0 15px; float: left; position: relative; display: block; padding: 12px 0; text-decoration: none; color:#595959; font-weight: 400; font-size: 1em; line-height: 1em; text-transform: uppercase; letter-spacing: 0.09em; transition: all 0.3s ease-in; }
-header article nav a #ancla-signup { height: auto; display: block; margin: 0 0 10px; float: none; background: #D94A64; color: #595959; border-radius: 10px; text-align: center; font-weight: 600; text-transform: uppercase; font-size: 0.65em; letter-spacing: 0.07em; padding: 2px 0; }
+header article nav a { width: auto; height: auto; margin: 0 15px; float: left; position: relative; display: block; padding: 12px 0; text-decoration: none; color:#000000; font-weight: 400; font-size: 1em; line-height: 1em; letter-spacing: 0.09em; transition: all 0.3s ease-in; }
+header article nav a.signup-boton { color: white; padding:10px; background: #D94A64; border-radius: 5px; }
+header article nav a:hover { color:white; color: #720033;  transition: all 0.3s ease-in; }
 
 /* Main */
 
